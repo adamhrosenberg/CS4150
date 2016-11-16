@@ -4,6 +4,8 @@
 *.o
 *.obj
 
+*.DS_Store
+*.Rhistory
 # Precompiled Headers
 *.gch
 *.pch
