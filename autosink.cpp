@@ -9,16 +9,9 @@
 
 /**
 Adam Rosenberg
-I am traveling next month to the beautiful country of Dagonia, where I am going to rent a car. As I have been making my plans, I have learned four interesting facts about the Dagonian highway system:
-
-The highways lead from city to city; they do not intersect anywhere else.
-Each highway is for travel in one direction only.
-The highway system is acyclic; once you drive away from a city, there is no way to legally drive back.
-Every city charges a toll, payable when you enter the city via a highway.
-There are a number of driving trips I would like to take while in Dagonia, and for each I need to determine whether the trip is possible and, if so, the minimum amount I will need to pay in tolls.
-
-For example, Figure 1 is a map of the mining district of Dagistan. If I want to drive from Sourceville to SinkCity, the minimum toll will be $25 ($15 for entering Weston and $10 for entering SinkCity). If I want to drive from Easton to Easton, the minimum toll is $0 (since I am already there). If I want to drive from SinkCity to Weston, I’m out of luck.
-
+In this problem the input describe a DAG, and gives a source and end node. 
+Each node has a cost associated with it, and the algorithm here is to find the 
+cheapest route from A to B.
 **/
 using namespace std;
 
