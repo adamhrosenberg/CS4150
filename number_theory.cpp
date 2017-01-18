@@ -5,27 +5,8 @@
 #include <sstream>
 /**
 Adam Rosenberg
-Important grading note: You must solve this problem without using any library methods that your programming language provides for greatest common divisor, modular exponentiation, modular multiplicative inverse, primality testing, or RSA key generation.
-
-Each line of input poses a question from number theory; your program must print the answer, as detailed below.
-
-Input
-Each line of input consists of a category followed by one or more integers. All integers are non-negative and are less than 231231. The five types of input lines are:
-
-gcd a b, where a>0a>0 and b>0b>0.
-exp x y N, where N>1N>1.
-inverse a N, where N>a>0N>a>0.
-isprime p, where p>5p>5.
-key p q, where pp and qq are prime and p≠qp≠q.
-Output
-For each line of input, your program should produce a line of output, depending on the category:
-
-gcd a b: Print the greatest common divisor of aa and bb.
-exp x y n: Print xymodNxymodN, which must be non-negative and less than NN.
-inverse a N: Print a−1(modN)a−1(modN), which must be positive and less than NN. If the inverse does not exist, print “none”.
-isprime p: Print “yes” if pp passes the Fermat test for a=2a=2, a=3a=3, and a=5a=5; print “no” otherwise.
-key p q: Print the modulus, public exponent, and private exponent of the RSA key pair derived from pp and qq. The public exponent must be the smallest positive integer that works; qq must be positive and less than N
-
+Collection of math functions with no external libraries. includes gcd, exponentiation, inverse (x−1(modN)x−1(modN)), 
+prime testing, and short RSA algorithms to create keys for the handshake.
 **/
 
 
