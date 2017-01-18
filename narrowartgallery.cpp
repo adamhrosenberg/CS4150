@@ -2,7 +2,7 @@
 #include <map>
 using namespace std;
 
-
+//dynamic solution to the classic narrow art gallery problem 
 map <string, int> memo;
 
 
